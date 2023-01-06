@@ -80,5 +80,65 @@ Q20. What are conditional statements in Python?
 Q21. What is use of 'if', 'elif' and 'else' keywords?
 ->   if is the first condition check for the condition.
 
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+->    
+      age = int(input('Enter the age'))
+      
+      if age >= 18:
+        print('I can vote')
+      else:
+        print('I can't vote')
+ 
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+-> Ans .
+        numbers = [12, 75, 150, 180, 145, 525, 50]
+        add = 0
+        for i in numbers:
+            if i %2 == 0:
+                 add += i
+            else:
+                continue
+        print(add)
+        
+        
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+-> 
+ans
+x, y, z = input("Enter 3 numbers seprated by comma: ")
+if int(x) > int(y) and int(x) > int(z):
+  print(x,'is greatest')
+elif int(y) > int(z):
+  print(y,"is greatest")
+else:
+  print(z,"is greatest")
+  
+ Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+->
+ANS
+numbers = [12, 75, 150, 180, 145, 525, 50]
+lst = []
+
+for i in numbers:
+    if i > 150:
+        if i >500:
+            break
+    elif i % 5 == 0:
+        lst.append(i)
+        
+print(lst)
+
+
+Q26. What is a string? How can we declare string in Python?
+-> Ans
+    python are arrays of btyes represeting unicode characters
+    
+   
+ Q27. How can we access the string using its index?
+-> Ans . Sqaure brackets can used to access the elements of the string.
+
+ 
+      
+
+
 
   

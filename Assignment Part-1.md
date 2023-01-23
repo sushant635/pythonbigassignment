@@ -136,6 +136,61 @@ Q26. What is a string? How can we declare string in Python?
  Q27. How can we access the string using its index?
 -> Ans . Sqaure brackets can used to access the elements of the string.
 
+
+Q28. Write a code to get the desired output of the following
+
+string = "Big Data iNeuron"
+desired_output = "iNeuron"
+-->  string[9:16]
+
+Q29. Write a code to get the desired output of the following
+
+string = "Big Data iNeuron"
+desired_output = "norueNi"
+--> string[15:8:-1]
+
+
+Q30. Resverse the string given in the above question.
+-->  string[::-1]
+
+Q31. How can you delete entire string at once?
+--> We can delete the entire string at once by using del keyword.
+
+Q32. What is escape sequence?
+--> The "backslash ()" character as an escape character. In other words, it has a special meaning when we use it inside the strings. As the name suggests, the escape character escapes the characters in a string for a brief moment to introduce unique inclusion.
+
+
+Q33. How can you print the below string?
+--> Ans 'iNeuron's Big Data Course'
+
+Q34. What is a list in Python?
+--> Ans Python Lists are just like dynamically sized arrays, declared in other languages vector in C++ and ArrayList in Java. In simple language, a list is a collection of things, enclosed in [ ] and separated by commas. 
+
+Q36. How can we access the elements in a list?
+--> Ans In order to access the list items refer to the index number. Use the index operator [ ] to access an item in a list. The index must be an integer. Nested lists are accessed using nested indexing. 
+
+
+Q37. Write a code to access the word "iNeuron" from the given list.
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+--> Ans lst[4][2]
+
+Q38. Take a list as an input from the user and find the length of the list.
+--> Ans n = input("Enter number of elements seprated by space: ").split(" ")
+print(len(n))
+
+
+Q39. Add the word "Big" in the 3rd index of the given list.
+--> Ans lst = ["Welcome", "to", "Data", "course"]
+lst.insert(2, "Big")
+
+Q40. What is a tuple? How is it different from list?
+--> Tuple is a collection of Python objects much like a list. The sequence of values stored in a tuple can be of any type, and they are indexed by integers. Tuples are immutable where as list are mutable. We can also faster through the tuples than the list.
+
+
+
+
+
+
  
       
 
